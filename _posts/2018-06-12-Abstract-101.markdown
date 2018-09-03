@@ -7,3 +7,5 @@ title: Abstract 101
 ]({{site.url}}/img/blog/abstract101.jpeg)
 
 ##  Happines is Allegory, Unhappines is Story !! 
+
+{{site.url}}
