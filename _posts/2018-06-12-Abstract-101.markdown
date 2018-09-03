@@ -6,5 +6,7 @@ title: Abstract 101
 ![
 ](https://lh3.googleusercontent.com/r7WLptdydaGc8QKv9CqVCSYdLJulkYmdlA4s-NOg7B5iRkXtJAr2tcBVdeyfyff3DsOjQ2IjlQh5 "abstract")
 
-## -> Happines is Allegory,<-
-## -> Unhappines is Story !! <-
+<center>
+##  Happines is Allegory,
+##  Unhappines is Story !! 
+</center>
