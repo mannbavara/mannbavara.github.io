@@ -3,8 +3,8 @@ layout: post
 section-type: post
 title: Abstract 101
 ---
-![Image](https://github.com/akshayshete057/akshayshete057.github.io/blob/master/img/blog/abstract101.jpeg)
+![
+](https://lh3.googleusercontent.com/r7WLptdydaGc8QKv9CqVCSYdLJulkYmdlA4s-NOg7B5iRkXtJAr2tcBVdeyfyff3DsOjQ2IjlQh5 "abstract")
 
 ## Happines is Allegory,
-
 ## Unhappines is Story !!
