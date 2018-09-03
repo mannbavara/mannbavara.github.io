@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Abstract 101
 ---
-![stats1]({{ site.url }}/img/blog/abstract101.jpeg | width=100)
+![stats1]({{ site.url }}/img/blog/abstract101.jpeg | width=60)
 
 ##  Happines is Allegory, Unhappines is Story !! 
 
