@@ -1,5 +1,6 @@
 
-<!-- Index Layout Start -->
+
+<!-- Post Layout Start -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,8 +18,8 @@
   <meta name="description" content="Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine.">
   <meta name="author" content="akshay shete">
   <meta name="keywords" content="akshay, shete, personal, jekyll, theme">
-  <link rel="canonical" href="/about.html">
-  <title>{ akshay shete } | About</title>
+  <link rel="canonical" href="/2018/07/29/The-Last-Spell.html">
+  <title>{ akshay shete } | The Last Spell !</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -77,13 +78,19 @@
   
 
 
+  <!-- Syntax highlight in post pages -->
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/monokai_sublime.min.css">
+
+
+
 
 </head>
 
 <!-- HEAD End -->
 
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
+  <body>
 
     
 <!-- Navigation Start -->
@@ -111,19 +118,19 @@
           <!-- Scroll to section for each page in index -->
           
             <li>
-              <a class="page-scroll" href="about.html"> About </a>
+              <a class="page-scroll" href="../../../about.html"> About </a>
             </li>
           
             <li>
-              <a class="page-scroll" href="blog.html"> Blog </a>
+              <a class="page-scroll" href="../../../blog.html"> Blog </a>
             </li>
           
             <li>
-              <a class="page-scroll" href="gallery.html"> Gallery </a>
+              <a class="page-scroll" href="../../../gallery.html"> Gallery </a>
             </li>
           
             <li>
-              <a class="page-scroll" href="projects.html"> Projects </a>
+              <a class="page-scroll" href="../../../projects.html"> Projects </a>
             </li>
           
              
@@ -135,50 +142,28 @@
 <!-- Navigation End -->
 
 
-   
-<!-- About Start -->
-
-<section id="" class="container content-section text-center" >
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
-      <p>My name is Akshay Shete. I am pursuing my B.Tech in Computer Engineering from Veermata Jijabai Technological Institute <a href="http:vjti.ac.in">( VJTI, Mumbai ) </a>. I'm interested in programming, with my primary interests laying in Data Structures, Algorithms and Machine Learning. You can have look at my <a href="assets/resume.pdf">resume</a>
-
-</p>
-    </div>
-  </div>
-</section>
-
-<!-- About End -->
-
-     <!-- Footer Start -->
-
-<footer>
-	<a style="font-size: 150%;" href="mailto:akshay.shete057@gmail.com" target="_top">akshay.shete057@gmail.com</a>
-	&emsp;
-	<a style="font-size: 150%;" href="mailto:akshay.shete057@gmail.com" target="_top">aushete_b15@ce.vjti.ac.in</a>
-	
-	<br><br>
-    <!-- Social Buttons Start -->
-
-<ul class="list-inline social-buttons">
-    
-    <li><a href="https://facebook.com/akshayshete4745" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
-    
-    <li><a href="https://instagram.com/mann_bavara" target="_blank"><i class="fa fa-instagram fa-fw"></i></a></li>
-    
-    <li><a href="https://github.com/akshayshete057" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
-    
-    
-</ul>
-
-<!-- Social Buttons End -->
+    <section id="post" class="container content-section text-center">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
 
 
-</footer>
+          <h1><strong>The Last Spell !</strong></h1>
+          <h4>
+            <strong>29 Jul 2018</strong>
+            
+          </h4>
 
-<!-- Footer End -->
+          <section class="text-justify">
+            <p>Shifting from D209 to D403. This is my Serendipity</p>
 
-   
+<p><img src="https://lh3.googleusercontent.com/lfrH8Kpo510B1J2BCsD378PrKYfT1P1A-akHaP-uRPBR4QEkSZNsBRGgFjRNRKtf6bPyfLIaEge8" alt="Hostel View" title="Hostel" /></p>
+
+          </section>
+          <hr />
+        </div>
+      </div>
+    </section>
+
     
 <!-- Javascript Start -->
 
@@ -205,9 +190,24 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 
 
+  <!-- Syntax highlight in post pages-->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 
 
 
+
+
+
+
+
+
+  <!-- Share buttons Start -->
+
+  <script src="/js/rrssb.min.js"></script>
+
+  <!-- Share buttons End -->
 
 
 
@@ -216,7 +216,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'About', 'http://localhost:4000/about.html');
+    history.pushState({}, 'The Last Spell !', 'http://localhost:4000/2018/07/29/The-Last-Spell.html');
   }
 }
 </script>
@@ -226,9 +226,53 @@ function addTohistory() {
 
   
 
+    <!-- Post Gesture Navigation Start -->
+
+    <script type="text/javascript" src="/js/hammer.min.js"></script>
+
+    <script>
+      var post = document.getElementById('post');
+
+      new Hammer(post).on('swipeleft', function(event) {
+        addTohistory();
+        
+          document.location.replace("/2018/05/27/welcome.html");
+        
+      });
+
+      new Hammer(post).on('swiperight', function(event) {
+        addTohistory();
+        
+          document.location.replace("");
+        
+      });
+    </script>
+
+    <!-- Post Gesture Navigation Start -->
+
   
 
   
+
+  
+
+  
+
+    <!-- Swipe Instructions for Post Start -->
+
+    <script>
+      $(document).ready(function(){
+        if(!localStorage.getItem('post-swipeshowed')){
+          $("#swipe-instruction").fadeIn();
+          $("#swipe-instruction .close-swipe-instruction").click(function(){
+            $("#swipe-instruction").fadeOut();
+          });
+          localStorage.setItem('post-swipeshowed', true);
+        }
+      });
+    </script>
+
+    <!-- Swipe Instructions for Post End -->
 
   
 
@@ -242,4 +286,4 @@ function addTohistory() {
   </body>
 </html>
 
-<!-- Index Layout End -->
+<!-- Post Layout End -->
