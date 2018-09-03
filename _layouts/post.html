@@ -1,0 +1,37 @@
+
+<!-- Post Layout Start -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+
+    <section id="post" class="container content-section text-center">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+
+          <h1><strong>{{ page.title }}</strong></h1>
+          <h4>
+            <strong>{{ page.date | date_to_string }}</strong>
+            
+          </h4>
+
+          <section class="text-justify">
+            {{ page.content | markdownify }}
+          </section>
+          <hr />
+        </div>
+      </div>
+    </section>
+
+    {% include js.html %}
+
+  </body>
+</html>
+
+<!-- Post Layout End -->

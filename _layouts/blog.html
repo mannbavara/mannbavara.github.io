@@ -1,0 +1,44 @@
+
+<!-- Blog Layout Start -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+
+    <section id="page" class="container content-section text-center" style="margin-top: 20px;
+    padding-top: 50px;
+    @media(min-width:767px) {
+        margin-top: 50px;
+        padding-top: 50px;
+    }" >
+
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+
+
+        {{ page.content | markdownify }}
+
+        <div>
+          {% for post in site.posts %}
+            {% include post-list.html%}
+          {% endfor %}
+        </div>
+
+        {% include pagination.html %}
+
+        </div>
+      </div>
+    </section>
+
+
+    {% include js.html %}
+
+  </body>
+</html>
+
+<!-- Blog Layout End -->

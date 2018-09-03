@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{ akshay shete }</title>
+		<description>Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine.</description>
+		<link>http://localhost:4000/akshayshete057.github.io</link>
+		<atom:link href="http://localhost:4000/akshayshete057.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Welcome !</title>
+				
+				
+					<description>&lt;p&gt;This is my first blogpost.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 27 May 2018 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/akshayshete057.github.io/2018/05/27/welcome.html</link>
+				<guid isPermaLink="true">http://localhost:4000/akshayshete057.github.io/2018/05/27/welcome.html</guid>
+			</item>
+		
+	</channel>
+</rss>
