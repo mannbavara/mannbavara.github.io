@@ -7,6 +7,19 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>नज्म</title>
+				
+				
+					<description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/ADsZqFL-NP680bp3SfFcnOKOXH7PATSFYK1h1AQwjbnhczp2m8iBlptlRBRfyWFkDan8ovsbKqe6&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 06 Aug 2018 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/2018/08/06/%E0%A4%A8%E0%A4%9C-%E0%A4%AE.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2018/08/06/%E0%A4%A8%E0%A4%9C-%E0%A4%AE.html</guid>
+			</item>
+		
+			<item>
 				<title>The Last Spell !</title>
 				
 				
@@ -17,6 +30,20 @@
 				<pubDate>Sun, 29 Jul 2018 00:00:00 +0530</pubDate>
 				<link>http://localhost:4000/2018/07/29/The-Last-Spell.html</link>
 				<guid isPermaLink="true">http://localhost:4000/2018/07/29/The-Last-Spell.html</guid>
+			</item>
+		
+			<item>
+				<title>Abstract 101</title>
+				
+				
+					<description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/r7WLptdydaGc8QKv9CqVCSYdLJulkYmdlA4s-NOg7B5iRkXtJAr2tcBVdeyfyff3DsOjQ2IjlQh5&quot; alt=&quot;
+&quot; title=&quot;abstract&quot; /&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 12 Jun 2018 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/2018/06/12/Abstract-101.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2018/06/12/Abstract-101.html</guid>
 			</item>
 		
 			<item>
