@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: वगैरे
+title: रस्ते
 ---
 ![road](https://lh3.googleusercontent.com/HOUYWBaVKmRBxrsB2LGG3-Q8tyB-oanc5P1xfTl8dNNnESEesVhX8WhBd2G1lAb2Bmv0AKmKWWC9 "road")
 
