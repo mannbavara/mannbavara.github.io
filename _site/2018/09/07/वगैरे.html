@@ -1,5 +1,6 @@
 
-<!-- Tag Layout Start -->
+
+<!-- Post Layout Start -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,8 +18,8 @@
   <meta name="description" content="Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine.">
   <meta name="author" content="akshay shete">
   <meta name="keywords" content="akshay, shete, personal, jekyll, theme">
-  <link rel="canonical" href="/tags/tutorial.html">
-  <title>{ akshay shete } | tutorial</title>
+  <link rel="canonical" href="/2018/09/07/%E0%A4%B5%E0%A4%97%E0%A5%88%E0%A4%B0%E0%A5%87.html">
+  <title>{ akshay shete } | रस्ते</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -77,6 +78,12 @@
   
 
 
+  <!-- Syntax highlight in post pages -->
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/monokai_sublime.min.css">
+
+
+
 
 </head>
 
@@ -111,19 +118,19 @@
           <!-- Scroll to section for each page in index -->
           
             <li>
-              <a class="page-scroll" href="about.html"> About </a>
+              <a class="page-scroll" href="../../../about.html"> About </a>
             </li>
           
             <li>
-              <a class="page-scroll" href="blog.html"> Blog </a>
+              <a class="page-scroll" href="../../../blog.html"> Blog </a>
             </li>
           
             <li>
-              <a class="page-scroll" href="gallery.html"> Gallery </a>
+              <a class="page-scroll" href="../../../gallery.html"> Gallery </a>
             </li>
           
             <li>
-              <a class="page-scroll" href="projects.html"> Projects </a>
+              <a class="page-scroll" href="../../../projects.html"> Projects </a>
             </li>
           
              
@@ -135,62 +142,35 @@
 <!-- Navigation End -->
 
 
-    <section class="container content-section text-center">
+    <section id="post" class="container content-section text-center">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+        <div class="col-md-10 col-md-offset-1">
 
-          
 
-          <h3 id="#tutorial">#tutorial</h3>
+          <h1><strong>रस्ते</strong></h1>
+          <h4>
+            <strong>07 Sep 2018</strong>
+            
+          </h4>
 
-          <div>
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-          </div>
+          <section class="text-justify">
+            <p><img src="https://lh3.googleusercontent.com/HOUYWBaVKmRBxrsB2LGG3-Q8tyB-oanc5P1xfTl8dNNnESEesVhX8WhBd2G1lAb2Bmv0AKmKWWC9" alt="road" title="road" /></p>
 
+<p>रात्री रात्री नसतात दिवस दिवस नसतात,<br />
+असतात सगळे आवाज बिन खुणांचे,<br />
+हे लांब लांब रस्ते,<br />
+हे लांब लांब रस्ते,<br />
+कधीच जुने होत नाहीत<br />
+कि बदलत नाही,<br />
+आणि राहते उदाहरणार्थ फक्त<br />
+बंडखोरवृत्ती, उन्मुक्तता, विद्रोह,  उन्माद, वगैरे, वगैरे…</p>
+
+
+          </section>
+          <hr />
         </div>
       </div>
     </section>
-
-    <!-- Footer Start -->
-
-<footer>
-	<a style="font-size: 150%;" href="mailto:akshay.shete057@gmail.com" target="_top">akshay.shete057@gmail.com</a>
-	&emsp;
-	<a style="font-size: 150%;" href="mailto:akshay.shete057@gmail.com" target="_top">aushete_b15@ce.vjti.ac.in</a>
-	
-	<br><br>
-    <!-- Social Buttons Start -->
-
-<ul class="list-inline social-buttons">
-    
-    <li><a href="https://facebook.com/akshay.shete4745" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
-    
-    <li><a href="https://instagram.com/mann_bavara" target="_blank"><i class="fa fa-instagram fa-fw"></i></a></li>
-    
-    <li><a href="https://github.com/akshayshete057" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
-    
-    
-</ul>
-
-<!-- Social Buttons End -->
-
-
-</footer>
-
-<!-- Footer End -->
-
 
     
 <!-- Javascript Start -->
@@ -218,9 +198,24 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 
 
+  <!-- Syntax highlight in post pages-->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 
 
 
+
+
+
+
+
+
+  <!-- Share buttons Start -->
+
+  <script src="/js/rrssb.min.js"></script>
+
+  <!-- Share buttons End -->
 
 
 
@@ -229,7 +224,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'tutorial', 'http://localhost:4000/tags/tutorial.html');
+    history.pushState({}, 'रस्ते', 'http://localhost:4000/2018/09/07/%E0%A4%B5%E0%A4%97%E0%A5%88%E0%A4%B0%E0%A5%87.html');
   }
 }
 </script>
@@ -239,9 +234,53 @@ function addTohistory() {
 
   
 
+    <!-- Post Gesture Navigation Start -->
+
+    <script type="text/javascript" src="/js/hammer.min.js"></script>
+
+    <script>
+      var post = document.getElementById('post');
+
+      new Hammer(post).on('swipeleft', function(event) {
+        addTohistory();
+        
+          document.location.replace("/2018/09/07/%E0%A4%B0%E0%A4%B8-%E0%A4%A4%E0%A5%87.html");
+        
+      });
+
+      new Hammer(post).on('swiperight', function(event) {
+        addTohistory();
+        
+          document.location.replace("");
+        
+      });
+    </script>
+
+    <!-- Post Gesture Navigation Start -->
+
   
 
   
+
+  
+
+  
+
+    <!-- Swipe Instructions for Post Start -->
+
+    <script>
+      $(document).ready(function(){
+        if(!localStorage.getItem('post-swipeshowed')){
+          $("#swipe-instruction").fadeIn();
+          $("#swipe-instruction .close-swipe-instruction").click(function(){
+            $("#swipe-instruction").fadeOut();
+          });
+          localStorage.setItem('post-swipeshowed', true);
+        }
+      });
+    </script>
+
+    <!-- Swipe Instructions for Post End -->
 
   
 
@@ -255,4 +294,4 @@ function addTohistory() {
   </body>
 </html>
 
-<!-- Tag Layout End -->
+<!-- Post Layout End -->
