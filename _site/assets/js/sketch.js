@@ -30,6 +30,7 @@ function setup() {
 
 }
 
+
 function epicycles(x, y, rotation, fourier) {
   for (let i = 0; i < fourier.length; i++) {
     let prevx = x;
