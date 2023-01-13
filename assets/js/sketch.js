@@ -52,7 +52,7 @@ function epicycles(x, y, rotation, fourier) {
 
 function draw() {
   background(0);
-  //song.play()
+  song.play()
 
   let v = epicycles(width / 2, height / 2, 0, fourierX);
   path.unshift(v);
